@@ -1,4 +1,7 @@
-abhishek
-hello
-welcome guys
+#!/bin/bash
+#for printing the branch name
 
+
+
+
+echo "hello guys this abhishek and im currently in `git branch` bye"
