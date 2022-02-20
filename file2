@@ -1,0 +1,5 @@
+echo "hello this is the second file im adding"
+hostname -I
+
+ifconfig
+free -m
