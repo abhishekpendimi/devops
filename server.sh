@@ -1,5 +1,5 @@
 echo "hello this is chaning in the my local repo"
-eiho "hostname"
+echo "hostname"
 hostname 
 echo "disc"
 df -h 
