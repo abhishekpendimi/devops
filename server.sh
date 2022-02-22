@@ -5,5 +5,5 @@ echo "disc"
 df -h 
 echo "memory"
 free -m
-echo "cpu"
-top
+#echo "cpu"
+#top
