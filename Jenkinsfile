@@ -1,5 +1,8 @@
 pipeline {
-    agent any
+    agent {
+        label 'node' 
+    }
+    
     stages {
         stage ('build'){
             steps {
@@ -8,6 +11,10 @@ pipeline {
             }
         }
         stage ('test'){
+            agent{
+                label 'node1'
+            }
+            
             steps {
                 echo 'testing the application'
                  
